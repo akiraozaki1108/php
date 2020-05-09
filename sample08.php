@@ -18,28 +18,11 @@
 <main>
 <h2>Practice</h2>
 <pre>
-
 <?php 
-$fruite = [
-  "りんご" => "apple",
-  "ばなな" => "banana",
-  "ぴーち" => "peach",
-  "とまと" => "tomato",          
-];
-
-foreach ($fruite as $hiragana => $english){
-
-
-print ($english . ":" . $hiragana  . "\n");
+if (date("G") < 22){
+  print("営業時間外");
 }
-
 ?>
-
-
-<?php 
-print ()
-
-
 <!-- ここにプログラムを記述します -->
 </pre>
 </main>
