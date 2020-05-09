@@ -19,9 +19,12 @@
 <h2>Practice</h2>
 <pre>
 <?php 
-if (date("G") < 22){
+if (date("G") < 9){
   print("営業時間外");
 }
+  else {
+    print("ようこそ");
+  }
 ?>
 <!-- ここにプログラムを記述します -->
 </pre>
