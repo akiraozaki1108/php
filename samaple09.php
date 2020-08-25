@@ -18,15 +18,18 @@
 <main>
 <h2>Practice</h2>
 <pre>
-
-<?php <?php $i = 1: whil ($i <= 544) print ()
-$i = 1;
-while ($i <= 544) {
-print($i . "\n");
-$i ++;
-}
-?>
 <!-- ここにプログラムを記述します -->
+<?php 
+print('PHPを勉強中です');
+?>
+</pre>
+</main>
+</body>    
+<?php $sum = 100*200; ?>
+合憲金額は　<?php print($sum); 円です。?>
+
+消費税込みの値段は <?php print($sum * 1.0); 円です。?>
+
 </pre>
 </main>
 </body>    
