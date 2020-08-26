@@ -30,6 +30,26 @@ print('PHPを勉強中です');
 
 消費税込みの値段は <?php print($sum * 1.0); 円です。?>
 
+<?php 
+$fruite = [
+  "りんご" => "apple",
+  "ばなな" => "banana",
+  "ぴーち" => "peach",
+  "とまと" => "tomato",          
+];
+
+foreach ($fruite as $hiragana => $english){
+
+
+print ($english . ":" . $hiragana  . "\n");
+}
+
+?>
+
+
+<?php 
+print ()
+
 </pre>
 </main>
 </body>    
