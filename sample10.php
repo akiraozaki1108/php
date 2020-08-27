@@ -26,15 +26,7 @@ print($i . "\n");
 $i ++;
 }
 ?>
-<!-- ここにプログラムを記述します -->
 
-<h2>Practice</h2>
-<pre>
-<?php 
-// date_default_timezone_set("Asia/Tokyo");
-print
-('現在は' . date('G時　i分　s秒　l曜日') . 'です');
-?>
 </pre>
 </main>
 </body>    
