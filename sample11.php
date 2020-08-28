@@ -23,6 +23,7 @@
 $date = sprintf('%04s年 % 2d月 % 2d日', 'adcde' , 12, 5);
 print($date);
 ?>
+
 </pre>
 </main>
 </body>    
