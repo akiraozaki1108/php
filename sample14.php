@@ -30,8 +30,9 @@
 
     <input type="submit" value="送信する">
 </form>
-      
+
       </pre>
+      
 </main>
 </body>    
 </html>
