@@ -19,6 +19,21 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+    <?php
+    $zip = 'abcabc123-456';
+
+    $zip = mb_convert_kana($zip, 'a', 'UTF-8');
+    if (preg_match("/\A\d{3}[-]\d{4}\z/",$zip)) {
+      print('電話番号：T' . $zip);
+    } else {
+      print('電話番号を入れてください);
+
+    }
+    ?>
+    
+
+
+
 </pre>
 </main>
 </body>    
